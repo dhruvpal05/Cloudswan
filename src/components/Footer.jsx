@@ -1,5 +1,5 @@
 function Footer(){
-    return <><div className="footer">
+    return <div className="footer-container"><div className="footer">
         <div className="CloudswanSolutions">
             <h4>Cloudswan Solutions</h4>
         <ul>
@@ -35,10 +35,8 @@ function Footer(){
             </ul>
         </div>
     </div>
-    <div>
     <img src='/assets/logo.png' alt='logo' className='logo'/>
     </div>
-    </>
 }
 
 
