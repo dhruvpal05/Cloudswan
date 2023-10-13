@@ -1,5 +1,6 @@
 import Aboutus from "./components/Aboutus"
 import BecomeMentor from "./components/BecomeMentor"
+import Contactus from "./components/Contactus"
 import Earlycareer from "./components/Earlycareer"
 import Executives from "./components/Executives"
 import JoinusAbout from "./components/JoinusAbout"
@@ -20,11 +21,12 @@ function App() {
     <Executives/>
     <BecomeMentor/> */}
     {/* <OurServices/> */}
-    <Aboutus/>
+    {/* <Aboutus/>
     <OurApproach/>
     <Whychooseus/>
     <JoinusAbout/>
-    <ServicesCard/>
+    <ServicesCard/> */}
+    <Contactus/>
     </>
   )
 }
